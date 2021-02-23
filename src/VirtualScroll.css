@@ -1,0 +1,24 @@
+.Cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dashed gray;
+  background-color: plum;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Button {
+  margin: 1rem 0;
+  padding: 0.5rem;
+}
+
+.ScrollContainer {
+  overflow: auto;
+}
+
+.Container {
+  position: relative;
+  overflow: hidden;
+}
